@@ -18,8 +18,7 @@ public class MainActivity extends AppCompatActivity {
     public void onClickBtnMostrar(View v){
         EditText editText = findViewById(R.id.et_texto);
         EditText editText1 = findViewById(R.id.et_texto2);
-        Toast.makeText(MainActivity.this, editText.getText().toString() + editText1.getText(), Toast.LENGTH_LONG).show();
-        //Toast.makeText(MainActivity.this, editText.getText(), Toast.LENGTH_LONG).show();
+        Toast.makeText(MainActivity.this, editText.getText().toString() + " " + editText1.getText(), Toast.LENGTH_LONG).show();
     }
 
     public void OnClickBtnApagar(View v){
